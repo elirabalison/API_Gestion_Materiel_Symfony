@@ -1,0 +1,23 @@
+equipment_create:
+    path: /api/equipments
+    controller: App\Controller\EquipmentController::addEquipment
+    methods: POST
+
+equipment_update:
+    path: /api/equipments/{id}
+    controller: App\Controller\EquipmentController::updateEquipment
+    methods: PUT
+    requirements:
+        id: \d+
+
+equipment_delete:
+    path: /api/equipments/{id}
+    controller: App\Controller\EquipmentController::deleteEquipment
+    methods: DELETE
+    requirements:
+        id: \d+
+
+equipment_list:
+    path: /api/equipments
+    controller: App\Controller\EquipmentController::getEquipments
+    methods: GET
