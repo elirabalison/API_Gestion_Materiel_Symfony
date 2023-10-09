@@ -143,12 +143,12 @@ class EquipmentControllerUnitTest extends TestCase
         $this->controller = new EquipmentController($this->entityManager, $this->validator);
     }
 
-    private function createJsonRequest($method, $uri, $data): Request
+    private function createJsonRequest(string $method, string $uri, array $data): Request
     {
         return Request::create($uri, $method, [], [], [], [], json_encode($data));
     }
 
-    private function configureEntityManagerToFindEquipment($existingEquipmentId): void
+    private function configureEntityManagerToFindEquipment(int $existingEquipmentId): void
     {
         $this->equipmentRepository->method('find')
                 ->willReturnCallback(function ($id) use ($existingEquipmentId): ?Equipment {
