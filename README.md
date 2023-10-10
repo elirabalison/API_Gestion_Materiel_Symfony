@@ -1,7 +1,6 @@
 # Gestion de matériel API 
 
 L'API gestion de matériel contient des ressources API pour ajouter, modifier, supprimer et afficher des équipements pour un logiciel de gestion de matériel confié aux employés d'une entreprise dans le cadre de leur fonction.
-Bien sûr, voici un exemple de section "Dépendances" que vous pourriez ajouter à votre fichier README.md pour un projet Symfony :
 
 ## Dépendances
 
@@ -11,7 +10,7 @@ Ce projet Symfony dépend de plusieurs composants et bibliothèques pour fonctio
 
 - **Composer:** Composer est un gestionnaire de dépendances pour PHP. Si vous ne l'avez pas déjà installé, suivez les instructions sur [getcomposer.org](https://getcomposer.org/) pour l'installer.
 
-- **Symfony CLI (facultatif) :** Symfony CLI est un ensemble d'outils en ligne de commande pour Symfony. Il facilite le développement, le débogage et le déploiement des applications Symfony. Installez-le avec les instructions sur [symfony.com/download](https://symfony.com/download).
+- **Symfony CLI :** Symfony CLI est un ensemble d'outils en ligne de commande pour Symfony. Il facilite le développement, le débogage et le déploiement des applications Symfony. Installez-le avec les instructions sur [symfony.com/download](https://symfony.com/download).
 
 ## Installation 
 
